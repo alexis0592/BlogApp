@@ -1,0 +1,10 @@
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\Blog.Core.dll.config
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\Blog.Core.dll
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\Blog.Core.pdb
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\EntityFramework.dll
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\EntityFramework.xml
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\obj\Debug\Blog.Core.csprojResolveAssemblyReference.cache
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\obj\Debug\Blog.Core.dll
+c:\users\yacalder\documents\visual studio 2017\Projects\Blog\Blog.Core\obj\Debug\Blog.Core.pdb
