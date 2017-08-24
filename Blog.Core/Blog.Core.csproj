@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\AuthorControl.cs" />
     <Compile Include="Control\BlogControl.cs" />
     <Compile Include="Model\AdoModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -69,6 +70,7 @@
       <DependentUpon>AdoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AuthorRepository.cs" />
     <Compile Include="Repositories\BlogRepository.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,11 +13,17 @@ namespace Blog.Core.Repositories
             Dictionary<int, string> authors = new Dictionary<int, string>();
 
             authors.Add(1, "Author1");
-            authors.Add(1, "Author2");
-            authors.Add(1, "Author3");
-            authors.Add(1, "Author4");
+            authors.Add(2, "Author2");
+            authors.Add(3, "Author3");
+            authors.Add(4, "Author4");
 
             return authors;
+        }
+
+        public string getAuthor(int id)
+        {
+            Dictionary<int, string> authorsDictionary = getAuthor();
+            return authorsDictionary[id];
         }
     }
 }

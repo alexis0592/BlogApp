@@ -13,5 +13,10 @@ namespace Blog.Core.Control
         {
             return new AuthorRepository().getAuthor();
         }
+
+        public string getAuthor(int id)
+        {
+            return new AuthorRepository().getAuthor(id);
+        }
     }
 }
