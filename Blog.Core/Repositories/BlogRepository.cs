@@ -27,5 +27,46 @@ namespace Blog.Core.Repositories
                 throw;
             }
         }
+
+        public List<BlogPost> ConsultPost()
+        {
+            List<BlogPost> posts = new List<BlogPost>();
+
+            try
+            {
+                using(var db = new cursonetEntities())
+                {
+                    posts = db.BlogPosts.ToList();
+                }
+
+                return posts;
+            }
+            catch (Exception e)
+            {
+                return new List<BlogPost>();
+            }
+        }
+
+        public bool deletePost(int id)
+        {
+            BlogPost blogPost = new BlogPost();
+
+            try
+            {
+                using(var db = new cursonetEntities())
+                {
+                    blogPost = db.BlogPosts.ToList().Where(i => i.Id == id).FirstOrDefault();
+                    db.BlogPosts.Remove(blogPost);
+                    db.SaveChanges();
+                }
+
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+        }
     }
 }

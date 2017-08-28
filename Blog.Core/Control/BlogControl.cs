@@ -24,5 +24,15 @@ namespace Blog.Core.Control
                 throw;
             }
         }
+
+        public List<BlogPost> ConsultPost()
+        {
+            return new BlogRepository().ConsultPost();
+        }
+
+        public bool deletePost(int id)
+        {
+            return new BlogRepository().deletePost(id);
+        }
     }
 }
